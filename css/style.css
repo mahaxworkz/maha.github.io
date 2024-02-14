@@ -1125,6 +1125,77 @@ footer .credits a {
   font-size: 13px;
 }
 
+/* Your other CSS styles */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .services-mf .card {
+    margin-bottom: 30px;
+  }
+
+  .services-mf .description {
+    display: none;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .services-mf .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .services-mf .description {
+    display: none;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (mindevice-width : 320px) and (max-device-width : 480px) {
+  /* Styles for small screens */
+  #testimonial-mf .testimonial-box {
+    width: 100%;
+  }
+  #testimonial-mf .author-test {
+    text-align: center;
+  }
+  #testimonial-mf .author-test img {
+    width: 100px;
+    height: 100px;
+  }
+  #testimonial-mf .content-test {
+    padding: 10px;
+  }
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles for medium screens */
+  #testimonial-mf .testimonial-box {
+    width: 48%;
+  }
+  #testimonial-mf .author-test {
+    text-align: left;
+  }
+  #testimonial-mf .author-test img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  /* Styles for large screens */
+  #testimonial-mf .testimonial-box {
+    width: 30%;
+  }
+  #testimonial-mf .author-test {
+    text-align: left;
+  }
+  #testimonial-mf .author-test img {
+    width: 200px;
+    height: 200px;
+  }
+}
 /*======================================
 //--//-->   BUTTON
 ======================================*/
@@ -1267,5 +1338,10 @@ footer .credits a {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+}
+@media   (min-width: 768px)  {
+   {
+     
   }
 }
