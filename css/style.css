@@ -1125,30 +1125,6 @@ footer .credits a {
   font-size: 13px;
 }
 
-/* Your other CSS styles */
-
-/* Media query for tablets */
-@media (max-width: 768px) {
-  .services-mf .card {
-    margin-bottom: 30px;
-  }
-
-  .services-mf .description {
-    display: none;
-  }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 480px) {
-  .services-mf .card {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .services-mf .description {
-    display: none;
-  }
-}
 
 /*======================================
 //--//-->   BUTTON
