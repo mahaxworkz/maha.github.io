@@ -1149,53 +1149,7 @@ footer .credits a {
     display: none;
   }
 }
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (mindevice-width : 320px) and (max-device-width : 480px) {
-  /* Styles for small screens */
-  #testimonial-mf .testimonial-box {
-    width: 100%;
-  }
-  #testimonial-mf .author-test {
-    text-align: center;
-  }
-  #testimonial-mf .author-test img {
-    width: 100px;
-    height: 100px;
-  }
-  #testimonial-mf .content-test {
-    padding: 10px;
-  }
-}
 
-/* Tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* Styles for medium screens */
-  #testimonial-mf .testimonial-box {
-    width: 48%;
-  }
-  #testimonial-mf .author-test {
-    text-align: left;
-  }
-  #testimonial-mf .author-test img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  /* Styles for large screens */
-  #testimonial-mf .testimonial-box {
-    width: 30%;
-  }
-  #testimonial-mf .author-test {
-    text-align: left;
-  }
-  #testimonial-mf .author-test img {
-    width: 200px;
-    height: 200px;
-  }
-}
 /*======================================
 //--//-->   BUTTON
 ======================================*/
